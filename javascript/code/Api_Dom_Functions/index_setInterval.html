@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      #clock {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+      button {
+        font-size: 1em;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SetInterval</h1>
+
+    <div id="clock">00:00:00</div>
+    <button id="startBtn">Start Clock</button>
+    <button id="stopBtn">Stop Clock</button>
+
+    <script src="./setInterval.js"></script>
+  </body>
+</html>

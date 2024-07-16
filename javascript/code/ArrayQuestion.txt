@@ -1,0 +1,34 @@
+# Array Comparison & Manipulation
+
+Array Comparison: Check for Equality
+Write a function arraysEqual(arr1, arr2) that takes two arrays and returns true if they are identical (same elements in the same order), and false otherwise.
+
+Array Manipulation: Remove Duplicates
+Write a function removeDuplicates(arr) that takes an array and returns a new array with duplicate elements removed.
+
+Array Comparison: Common Elements
+Write a function commonElements(arr1, arr2) that takes two arrays and returns an array containing the elements that are common to both.
+
+Array Manipulation: Flatten a Nested Array
+Write a function flattenArray(arr) that takes a nested array of any depth and returns a new array with all elements flattened into a single level.
+
+Array Comparison: Subarray Check
+Write a function isSubarray(arr1, arr2) that takes two arrays and returns true if arr1 is a subarray of arr2, and false otherwise.
+
+
+# Array questions
+
+Array Comparison: Check for Containment
+Write a function arrayContains(arr1, arr2) that takes two arrays and returns true if all elements of arr1 are contained within arr2 (regardless of order), and false otherwise.
+
+Array Manipulation: Rotate Elements
+Write a function rotateArray(arr, k) that takes an array and a number k, and returns a new array with the elements rotated k positions to the right. For example, rotateArray([1, 2, 3, 4, 5], 2) should return [4, 5, 1, 2, 3].
+
+Array Comparison: Compare Frequencies
+Write a function compareFrequencies(arr1, arr2) that takes two arrays and returns true if both arrays have the same frequency of elements (order doesn't matter), and false otherwise.
+
+Array Manipulation: Chunk Array
+Write a function chunkArray(arr, size) that takes an array and splits it into groups of the specified size. For example, chunkArray([1, 2, 3, 4, 5], 2) should return [[1, 2], [3, 4], [5]].
+
+Array Comparison: Find Missing Elements
+Write a function findMissingElements(arr1, arr2) that takes two arrays and returns an array containing the elements that are present in arr1 but missing from arr2.

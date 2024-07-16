@@ -1,0 +1,16 @@
+# Object Comparison & Manipulation
+
+Object Comparison: Check for Equality
+Write a function objectsEqual(obj1, obj2) that takes two objects and returns true if they have identical keys and values, and false otherwise.
+
+Object Manipulation: Merge Objects
+Write a function mergeObjects(obj1, obj2) that takes two objects and returns a new object that combines the properties of both, with properties from obj2 overwriting those from obj1 if there are conflicts.
+
+Object Comparison: Check for Subset
+Write a function isSubset(subObj, mainObj) that takes two objects and returns true if subObj is a subset of mainObj, and false otherwise.
+
+Object Manipulation: Invert Key-Value Pairs
+Write a function invertObject(obj) that takes an object and returns a new object with keys and values swapped.
+
+Object Comparison: Find Differences
+Write a function objectDifferences(obj1, obj2) that takes two objects and returns an object describing the differences, including keys that are present in one object but not the other, and keys with different values.
