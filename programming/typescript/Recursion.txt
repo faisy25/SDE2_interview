@@ -1,0 +1,39 @@
+1. Sum of Digits
+Problem: Write a recursive function sumOfDigits(n) that returns the sum of the digits of n.
+
+2. Directory Size Calculation
+Problem: Write a recursive function directorySize(directory) that returns the total size of a directory. The directory can contain files (with a size property) and subdirectories (which are also directories).
+
+const myDirectory = {
+    name: "root",
+    size: 0, // Size is not directly relevant here
+    contents: [
+        { name: "file1.txt", size: 1000 },
+        { name: "file2.txt", size: 2000 },
+        {
+            name: "subdir",
+            size: 0,
+            contents: [
+                { name: "file3.txt", size: 3000 },
+                { name: "file4.txt", size: 4000 }
+            ]
+        }
+    ]
+};
+
+console.log(directorySize(myDirectory));  // Output: 10000
+
+
+3. Calculating Compound Interest
+Problem: Write a recursive function compoundInterest(P, r, n, t) that returns the amount of money accumulated after t years, including interest. The function should use the formula for compound interest:
+
+formula = 'A = P (1 + r/n)^(nt)'                         // ^ raise to (nt)
+where:
+P is the principal amount (initial investment)
+r is the annual interest rate (decimal)
+n is the number of times interest is compounded per year
+t is the time the money is invested for in years
+
+console.log(compoundInterest(1000, 0.05, 1, 10));  // Output: 1628.89
+console.log(compoundInterest(1500, 0.04, 4, 6));   // Output: 1938.84
+console.log(compoundInterest(2000, 0.03, 12, 5));  // Output: 2322.60

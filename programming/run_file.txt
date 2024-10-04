@@ -1,0 +1,31 @@
+JavaScript Run File :
+	
+node filename.js
+
+
+Typescript Code Execution :
+	
+ts-node filename.ts
+
+This configuration must be added to your project.
+{
+  "compilerOptions": {
+    "target": "ESNext",           // Specify ECMAScript target version
+    "module": "ESNext",           // Specify module code generation
+    "esModuleInterop": true,      // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,         // Skip type checking of declaration files
+    "strict": true,               // Enable all strict type-checking options
+    "moduleResolution": "node",   // Use Node.js module resolution strategy
+    "resolveJsonModule": true,    // Include modules imported with .json extension
+    "forceConsistentCasingInFileNames": true // Disallow inconsistently-cased references to the same file.
+  },
+  "include": ["**/*.ts"],          // Include all .ts files in the project
+  "exclude": ["node_modules"]      // Exclude node_modules
+}
+
+	
+Python Code Execution :
+
+Top corner run button , click down arrow and Python Run 			File
+	
+
